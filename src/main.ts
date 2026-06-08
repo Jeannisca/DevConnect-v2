@@ -1,5 +1,37 @@
-import '../src/assets/css/index.css'
+import "../src/assets/css/index.css";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-Wello World
-`
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+<header> 
+ <nav class="navbar">
+  <div class="navbar__logo">
+  <img src="./assets/img/logoipsum-custom-logo(1).svg" alt="DevConnect Logo">
+  </div>
+ </nav>
+</header>
+<main>
+ <section class="hero">
+    <h1 class="hero__titre">Bienvenue sur DevConnect</h1>
+    <h2 class="hero__soustitre">Le portail  de portfolio des développeurs</h2>
+    <p class="hero__description">Explorez notre vivier de talents et découvrez des professionnels fiables en </br>  explorant leur portfolio.</p>
+    <button class="hero__button">Explorer </button>
+    <div class="Domain"> Front-end, Back-end, Full-stack</div>
+ </section>
+</main>
+<footer class="footer">
+ <div class="logo">
+  <img src="./assets/img/logoipsum-custom-logo(1).svg" alt="DevConnect Logo">
+  <p>votre plateforme de référence</p>
+  <div class="lieux_contact"> 
+    <p>Libreville, Gabon</p>
+    <p> num: +241 xx xx xx xx</p>
+    <p> num: +241 xx xx xx xx</p>
+  </div>
+  <div class="copyright">
+    <p>© 2024 DevConnect. Tous droits réservés.</p>
+    <div class="social_media">
+      <a href="#" class="social_media__link"> GitHub</a>
+    </div>
+  </div>
+</footer>
+ 
+`;
