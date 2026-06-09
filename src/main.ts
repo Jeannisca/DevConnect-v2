@@ -3,45 +3,41 @@ import "../src/assets/css/index.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <header> 
-    <nav class="navbar">
-      <div class="navbar__logo">
-        <img src="./assets/img/logoipsum-custom-logo(1).svg" alt="DevConnect Logo">
-      </div>
+    <nav>
+      <img class="logo" src="./assets/img/custom-logo.svg" alt="DevConnect Logo">
     </nav>
   </header>
   <main>
     <section class="hero">
       <h1 class="hero__titre">Bienvenue sur DevConnect</h1>
-      <h2 class="hero__soustitre">Le portail  de portfolio des développeurs</h2>
-      <p class="hero__description">Explorez notre vivier de talents et découvrez des professionnels fiables en </br>  explorant leur portfolio.</p>
-      <a href="./src/pages/developpeurs.html" class="bouton_lien">
-          <button class="hero__button">Explorer</button>
-      </a>
-      <div class="Domain"> 
-        <p>Front-end, Back-end, Full-stack</p>
-      </div>
+      <h2 class="hero__soustitre">Le portail de portfolios des développeurs</h2>
+      <p class="hero__description">Explorez notre vivier de talents et découvrez des professionnels fiables en</br>explorant leur portfolio.</p>
+      <a class="hero__button" href="./src/pages/developpeurs.html">Explorer</a>
     </section>
+    <div class="all__domains"> 
+      <p class="domain">Front-end</p>
+      <p class="domain">Back-end</p>
+      <p class="domain">Full-stack</p>
+    </div>
   </main>
   <footer class="footer">
-    <div class="footer__left">
-      <div class="logo">
-        <img src="./assets/img/logoipsum-custom-logo(1).svg" alt="DevConnect Logo">
+    <div class="footer__top">
+      <div class="footer__top__left">
+        <img class="logo" src="./assets/img/custom-logo.svg" alt="DevConnect Logo">
+        <p class="slogan">Votre plateforme de référence</p>
       </div>
-      <p>votre plateforme de référence</p>
-      <p>© 2024 DevConnect. Tous droits réservés.</p>
-    </div>
-    <div class="footer__right">
-      <div class="lieux_contact"> 
-        <p>Libreville, Gabon</p>
-        <p> num: +241 xx xx xx xx</p>
-        <p> num: +241 xx xx xx xx</p>
-      </div>
-      <div class="copyright"> 
-        <div class="social_media">
-          <img src="./assets/img/github logo.png" alt="GitHub">
+      <div class="footer__top__right">
+        <div class="location">
+          <img src="./assets/img/map-pin-2-fill.svg" alt="localisation">
+          <p class="region">Libreville, Gabon</p>
         </div>
+        <p class="call_number">num: +241 xx xx xx xx</p>
+        <p class="call_number">num: +241 xx xx xx xx</p>
       </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="copyright">© 2024 DevConnect · Tous droits réservés.</p>
+      <img class="social_media" src="./assets/img/github-fill.svg" alt="GitHub">
     </div>
   </footer>
- 
 `;
