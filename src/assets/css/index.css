@@ -1,7 +1,9 @@
+@import url(/src/assets/css/variables.css);
+
 * {
     padding: 0;
     margin: 0;
-    color: white;
+    color: var(--color-text);
     
 }
 
@@ -20,18 +22,20 @@ body {
 header {
     padding: 30px;
     height: 10px;
-    color: var(--color-text);
     font-weight: 24px;
 }
 
 main { 
-    height: 500px;
-    margin-top: 50px;
+    height: 100vh;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 
 .hero {
     padding-top: 50px;
-    height: 450px;
+    height: 500px;
     padding: 20px 0;
     margin-top: 50px;
     color: var(--color-text);
@@ -40,34 +44,36 @@ main {
 }
 
 .hero h1 {
-    font-size: 70px;
-    line-height: 110px;
+    font-size: 80px;
+    line-height: 120px;
 }
 
 .hero h2 {
-    font-size: 50px;
-    line-height: 110px;
+    font-size: 60px;
+    line-height: 120px;
 }
 
 .hero p {
-    font-size: 30px;
+    font-size: 40px;
 }
 
-.hero a {
+.hero__button{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     border-radius: 15px;
-    border: 1.5px solid blue;
+    border: 1.5px solid var(--border-color);
     color: white;
-    background-color: #4845D2;
-    line-height: 130px;
-    padding: 10px;
-    
+    background-color: var(--color-gras);
+    line-height: 150px;
+    padding: 20px 30px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 
 .devconnect {
-    color: #4845D2;
+    color: var(--color-gras);
 
 }
 
@@ -80,16 +86,20 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .all__domains p {
-    color: #4845D2;
+    color: var(--color-gras);
     font-weight: bold;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
 }
 
+
 .footer {
-  background-color: #121212;
+  background-color: var(--footer-color);
   font-size: 20px;
   padding: 30px;
   align-content: center;
@@ -131,8 +141,8 @@ hr {
 @media (min-width:600px) and (max-width:1024px) {
     
     header {
-        background-color: white;
-        color: #121212;
+        background-color: var(--color-text);
+        color: var(--footer-color);
     }
 
     body {
@@ -167,8 +177,7 @@ hr {
     }
 
     main {
-        height: 900px;
-        margin-top: 50px;
+        height: 100vh;
     }
 
     .hero a {
@@ -178,7 +187,7 @@ hr {
         border-radius: 15px;
         border: 1.5px solid blue;
         color: white;
-        background-color: #4845D2;
+        background-color: var(--color-gras);
         line-height: 150px;
         padding: 10px;
         
@@ -187,6 +196,12 @@ hr {
     .all__domains {
         display: flex;
         flex-direction: column;
+        font-size: 30px;
+    }
+
+    .hero__button {
+        padding: 20px 30px;
+        font-size: 15px;
     }
 }
 
@@ -194,8 +209,8 @@ hr {
 
 @media (min-width: 350px) and (max-width:700px){
      header {
-        background-color: white;
-        color: #121212;
+        background-color: var(--color-text);
+        color: var(--footer-color);
     }
 
      body {
@@ -206,7 +221,7 @@ hr {
 
     .hero {
     padding-top: 50px;
-    height: 700px;
+    height: 500px;
     padding: 30px 0;
     margin-top: 50px;
     color: var(--color-text);
@@ -216,7 +231,7 @@ hr {
     }
 
     .hero h1 {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 50px;
     }
 
@@ -230,18 +245,19 @@ hr {
     }
 
     main {
-        height: 900px;
-        margin-top: 50px;
+        height: 100vh;
+        
+        justify-content: center;
+        text-align: center;
     }
 
     .hero a {
         text-decoration: none;
-        color: white;
+        color: var(--color-text);
         font-size: 25px;
         border-radius: 15px;
         border: 1.5px solid blue;
-        color: white;
-        background-color: #4845D2;
+        background-color: var(--color-gras);
         line-height: 150px;
         padding: 10px;
         
@@ -250,11 +266,18 @@ hr {
     .all__domains {
         display: flex;
         flex-direction: column;
+        font-size: 15px;
     }
 
     .footer {
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
         line-height: 10px;
+    
+    }
+
+    .hero__button {
+        padding: 20px 30px;
+        font-size: 20px;
     }
 }
