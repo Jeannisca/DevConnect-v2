@@ -9,7 +9,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   </header>
   <main>
     <section class="hero">
-      <h1 class="hero__titre">Bienvenue sur DevConnect</h1>
+      <h1 class="hero__titre">Bienvenue sur <span class="devconnect"> DevConnect </span> </h1>
       <h2 class="hero__soustitre">Le portail de portfolios des développeurs</h2>
       <p class="hero__description">Explorez notre vivier de talents et découvrez des professionnels fiables en</br>explorant leur portfolio.</p>
       <a class="hero__button" href="./src/pages/developpeurs.html">Explorer</a>
@@ -35,6 +35,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         <p class="call_number">num: +241 xx xx xx xx</p>
       </div>
     </div>
+    <hr>
     <div class="footer__bottom">
       <p class="copyright">© 2024 DevConnect · Tous droits réservés.</p>
       <img class="social_media" src="./src/assets/img/github-fill.svg" alt="GitHub">
