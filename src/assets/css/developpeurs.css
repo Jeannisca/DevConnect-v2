@@ -73,7 +73,7 @@ main {
    align-items: center;
    gap: 10px;
    padding: 20px 0;
-   background-color: #f5f5f7;
+   /*background-color: #f5f5f7;*/
    position: sticky;
    top: 56px;
    z-index: 90;
