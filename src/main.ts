@@ -28,7 +28,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       </div>
       <div class="footer__top__right">
         <div class="location">
-          <img src="./src/assets/img/map-pin-2-fill.svg" alt="localisation">
+          <img class="localisation__icone" src="./src/assets/img/map-pin-2-fill.svg" alt="localisation">
           <p class="region">Libreville, Gabon</p>
         </div>
         <p class="call_number">num: +241 xx xx xx xx</p>
