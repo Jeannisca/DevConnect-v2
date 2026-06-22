@@ -6,8 +6,7 @@ function cardSkeletons(): void {
     realCards.forEach(card => (card as HTMLElement).style.display = 'none');
 
     const skeletonnHtml = `
-    <div> class="card sk-card"><div> class="sk-btn sk-shimmer"></div>
-    </div>`.repeat(realCards.length);
+    <div> class="card sk-card"></div>`.repeat(realCards.length);
     container.insertAdjacentHTML('afterbegin', skeletonnHtml);
 
     setTimeout(() => {
