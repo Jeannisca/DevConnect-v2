@@ -1,6 +1,7 @@
 import "../src/assets/css/index.css";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <header>
   <nav>
@@ -13,6 +14,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </header>
 `
 =======
+=======
+>>>>>>> jeannisca
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <header> 
@@ -55,4 +58,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     </div>
   </footer>
 `;
+<<<<<<< HEAD
 >>>>>>> 85c207c4cc1a5ff03fc1428a59428c19e7c2e8f3
+=======
+>>>>>>> jeannisca

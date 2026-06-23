@@ -9,13 +9,21 @@
    
     /* border */
     --color-border-bottom: #e8e8f0;
+<<<<<<< HEAD
     --color-border: #d0cfe8;
+=======
+    --color-border: 8;
+>>>>>>> jeannisca
     --color-border-li: #e4e4ec;
     --color-border-card: #ebebf0;
 
     /* texte */
     --primary-color: #18122C;
+<<<<<<< HEAD
     --color-gras: #4845D2;
+=======
+    --color-gras: c
+>>>>>>> jeannisca
     --color-text: #FFFFFF;
 
     /* btn */
@@ -23,5 +31,9 @@
     --color-btn-hover: #1a1a2e;
 
     /* shadow */
+<<<<<<< HEAD
     --shadow-box: rgba(91, 79, 207, 0.1);
+=======
+    --shadow-box: rgba(14, 12, 37, 0.1);
+>>>>>>> jeannisca
 }
