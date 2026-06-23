@@ -2,7 +2,7 @@ import "../src/assets/css/index.css";
 
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <header> 
+  <header>
     <nav>
       <img class="logo" src="./src/assets/img/custom-logo.svg" alt="DevConnect Logo">
     </nav>
@@ -11,7 +11,8 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <section class="hero">
       <h1 class="hero__titre">Bienvenue sur <span class="devconnect"> DevConnect </span> </h1>
       <h2 class="hero__soustitre">Le portail de portfolios des développeurs</h2>
-      <p class="hero__description">Explorez notre vivier de talents et découvrez des professionnels fiables en</br>explorant leur portfolio.</p>
+      <p class="hero__description">Explorez notre vivier de talents et découvrez des professionnels fiables
+        en</br>explorant leur portfolio.</p>
       <a class="hero__button" href="./src/pages/developpeurs.html">Explorer</a>
     </section>
     <div class="all__domains"> 
